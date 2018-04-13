@@ -1,0 +1,27 @@
+
+/* table ½ÃÀÛ */
+table {
+  	width: 700px;
+  	height: 500px;
+  	border-collapse: collapse;
+	font-size: 12px;
+}
+
+thead {
+  text-align: center;
+  font-weight: bold;
+  border-top: 2px solid black;
+  border-bottom: 1px solid gray;
+}
+
+input#titleInput { width: 520px; }
+
+thead > tr { height: 40px; background-color: #f1f2f2;}
+thead > tr > td:nth-of-type(1){ width: 150px; }
+thead > tr:nth-of-type(1){ border-bottom: 1px solid black; }
+tbody > tr { border: 0; border-radius: 5%; }
+tbody td { padding: 0; }
+
+input#submit { font-weight: bold; }
+input#keywordInput { width: 100%; }
+footer{ clear: both; }

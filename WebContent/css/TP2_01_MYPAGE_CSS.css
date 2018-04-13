@@ -1,0 +1,23 @@
+table {
+  	width: 700px;
+  	border-collapse: collapse;
+    font-size: 12px;
+}
+
+thead {
+  	text-align: center;
+  	font-weight: bold;
+  	border-top: 2px solid black;
+  	border-bottom: 1px solid gray;
+  	background-color: #f1f2f2;
+}
+
+input#titleInput { width: 520px; }
+
+thead th { padding-top: 10px; padding-bottom: 10px; }
+thead th:nth-of-type(1){ width: 500px; background: #f1f2f2; text-align: center; font-weight: bold; }
+tbody td:nth-of-type(1) { width: 100px; text-align: center; border-right: 1px solid black; }
+tbody td:nth-of-type(2) { padding-left: 10px; text-align: left; }
+tbody > tr { border-bottom: 1px dotted black; }
+tbody td { padding-top: 10px; padding-bottom: 10px; }
+tfoot td { text-align: right; }

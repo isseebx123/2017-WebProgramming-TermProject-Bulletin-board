@@ -1,0 +1,99 @@
+
+/* 테이블 시작 */
+table#GuestBook_table {
+	width: 700px;
+	min-height: 500px;
+  	border-collapse: collapse;
+  	font-size: 12px;
+}
+
+table#GuestBook_table thead {
+  text-align: center;
+  font-weight: bold;
+  border-top: 2px solid black;
+  border-bottom: 1px solid gray;
+}
+
+table#GuestBook_table thead h1 { margin: 5px 0; }
+table#GuestBook_table td { border: 1px solid gray; }
+
+table#GuestBook_table thead > tr { height: 40px; background-color: #f1f2f2; }
+table#GuestBook_table thead td:nth-of-type(2), thead td:nth-of-type(3){ width: 150px; }
+
+table#GuestBook_table tbody > tr:nth-of-type(1) { height: 30px; }
+table#GuestBook_table tbody > tr > td:nth-of-type(1) {
+	width: 150px;
+	background-color: #f1f2f2;
+	text-align: center;
+	font-weight: bold;
+}
+table#GuestBook_table tbody > tr > td:nth-of-type(2) { text-align: left; }
+
+.textEdit { border: 1px solid black; width: 533px; height: 23px; padding: 0; margin-left: 5px; }
+#contentEdit { border: 1px solid black; width: 533px; height: 350px; padding: 0; margin-left: 5px; }
+
+#hostSubmit, .replySubmit {
+	margin: 0.5% auto;
+	background-color: black;
+	padding: 1% 1.5%;
+	white-space:nowrap;
+	color: white;
+	font-size: 120%;
+}
+
+.replyTd { text-align: left; }
+.buttonTd { text-align: center; }
+
+/* 오픈그래프프로토콜 시작 */
+.openGraphProtocol {
+	table-layout: fixed;
+	width: 60%;
+	border-collapse: collapse;
+	margin: 1% 0;
+}
+
+.openGraphProtocol img {
+	max-width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.openGraphProtocol img:hover{
+	cursor: pointer;
+}
+
+.imageDataCell {
+	padding: 0;
+	width: 24%;
+}
+
+.stringDataCell{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	text-align: left;
+	padding: 0 3%;
+	line-height: 100%;
+}
+
+.openGraphProtocol td{
+	border: 1px solid rgba(0,0,0,.1);
+	background: white;
+}
+
+.ogDescription {
+	color: gray;
+	font-size: 90%;
+}
+
+.ogUrl {
+	color: blue;
+	font-size: 90%;
+}
+.ogUrl:visited {
+	color: blue;
+}
+
+footer{
+  clear: both;
+}

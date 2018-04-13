@@ -1,0 +1,31 @@
+@CHARSET "EUC-KR";
+
+/* table ½ÃÀÛ */
+table {
+  width: 700px;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+thead {
+  text-align: center;
+  font-weight: bold;
+  border-top: 2px solid black;
+  border-bottom: 1px solid gray;
+}
+
+thead > tr:nth-of-type(1) { height: 40px; background-color: #f1f2f2;}
+thead > tr:nth-of-type(2) { height: 30px; }
+thead td:nth-of-type(1){ width: 70px; border-right: 1px dotted black; }
+thead td:nth-of-type(2){ text-align: left; padding-left: 5px; width: 430px; }
+thead td:nth-of-type(4){ text-align: center;  }
+thead > tr:nth-of-type(1){ border-bottom: 1px solid black; }
+tbody > tr { border: 0; border-radius: 5%; }
+tbody td { padding: 40px 0 40px 30px; text-align: left; }
+
+tfoot td { text-align: right; }
+tfoot td input { margin-right: 5px; }
+
+.titleTD { border-left: 1px dotted black; border-right: 1px dotted black; width: 70px;}
+
+#title {  }

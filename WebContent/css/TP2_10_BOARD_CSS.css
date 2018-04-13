@@ -1,0 +1,40 @@
+
+/* table ½ÃÀÛ */
+table {
+  	width: 700px;
+  	border-collapse: collapse;
+  	font-size: 12px;
+}
+
+thead {
+  	text-align: center;
+  	font-weight: bold;
+  	border-top: 2px solid black;
+  	border-bottom: 1px solid gray;
+}
+
+input#titleInput { width: 520px; }
+
+thead > tr { background-color: #f1f2f2;}
+thead th { padding-top: 10px; padding-bottom: 10px; }
+thead th:nth-of-type(1){ width: 500px; }
+thead th:nth-of-type(2), thead th:nth-of-type(3){ width: 100px; }
+thead > tr:nth-of-type(1){ border-bottom: 1px solid black; }
+tbody > tr { border-bottom: 1px dotted black; }
+
+td.td1{ text-align: left; padding-left: 10px; padding-top: 10px; padding-bottom: 10px; }
+td.td2, td.td3 { text-align: center; padding-top: 10px; padding-bottom: 10px; }
+
+tbody a { text-decoration: none; }
+tbody a:link{ color: black; }
+tbody tr:hover { color: black; background-color: #F5F5F5; }
+tbody a:visited, tbody a:active{ color: black; }
+
+a#NewWrite:link, a#NewWrite:hover, a#NewWrite:visited, a#NewWrite:active {
+  color: black; text-decoration: none; font-weight: bold; font-family:"BMJUA";
+  padding-left: 10px; font-size: 1.5em;
+}
+
+form { display: inline-flex; }
+
+footer{ clear: both; }

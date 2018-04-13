@@ -1,0 +1,92 @@
+@font-face {
+	font-family:"BMDOHYEON";
+	src:url("../../font/BMDOHYEON_ttf.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* nav(Menu bar) 시작 */
+nav {
+	z-index = -1;
+	overflow:hidden;
+	background-color: #F5F5F5;
+  	width: 100%;
+	text-align:center; /* 메뉴 버튼을 중앙으로 정렬 */
+	white-space: nowrap;
+	margin-top: 54px;
+}
+
+ul#MenuUl, ul#MemberUl {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* MenuUl 시작 */
+ul#MenuUl {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	padding-right: 2.8%;
+}
+
+ul#MenuUl li:nth-of-type(1),ul#MenuUl li:nth-of-type(2),ul#MenuUl li:nth-of-type(3){
+	padding: 3px 30px 3px 0;
+	margin-left: 20px;
+}
+ul#MenuUl li:nth-of-type(5),ul#MenuUl li:nth-of-type(6),ul#MenuUl li:nth-of-type(7){
+	padding: 3px 0 3px 40px;
+	margin-right: 20px;
+}
+
+li.Menu {
+	font-family: "BMDOHYEON";
+  	background-color: inherit;
+	font-size: 1.2em;
+  	outline: none;
+  	transition: 0.3s;
+	display: inline;
+	border-bottom: 2px solid black;
+	transition: all 275ms;
+}
+li.Menu:hover { border-bottom: 2px solid #16a6b6; color: #16a6b6; }
+
+li.Menu a { transition: all 275ms; cursor: pointer; /* mouseover시 cursor변경 */ }
+li.Menu a:link { color: black; text-decoration: none; }
+li.Menu a:hover { color: #16a6b6; text-decoration: none; }
+li.Menu a:visited { color: black; text-decoration: none; }
+li.Menu a:active { color: #16a6b6; text-decoration: none; }
+
+li#buffalo { display: inline; width: 140px; height: 150px; }
+li#buffalo a { width: 100%; height: 100%; }
+li#buffalo img{ max-width: 12%; height: auto; }
+
+/* MenuUl 끝 */
+
+table {
+	font-family: "BMDOHYEON";
+	margin: 0 auto;
+  	width: 500px;
+  	font-size: 1.4em;
+}
+
+form { margin-top: 50px; }
+
+tbody > tr input {
+	border: 1px dotted black;
+	width: 400px;
+}
+
+tfoot > tr input {
+	border: 2px solid black;
+	color: blue;
+	background-color: white;
+	width: 49.2%;
+	height: 30px;
+}
+
+tfoot > tr > td {
+	text-align: center;
+}
+
+td.menu { text-align: center; }
+input { font-size: 0.8em; font-family: inherit; }
